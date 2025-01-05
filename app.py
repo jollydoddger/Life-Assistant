@@ -111,7 +111,6 @@ def main():
         last_workout = workout_data["workouts"][-1]
         st.markdown("**Last Generated Workout Plan:**")
         st.write(last_workout["plan"])
-^F API
 
         st.write("#### Enter how you performed:")
         sets_completed = st.text_area("Describe sets/reps/weights used (optional):", "")
